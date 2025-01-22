@@ -49,3 +49,8 @@ Create a file containing just this data:
 ```
 openssl pkcs12 -export -out cert.pfx -inkey privkey.pem -in fullchain.pem
 ```
+## convert to apache xampp windows
+```
+sudo cp /etc/letsencrypt/live/[yourdomain.com]/fullchain.pem move to  --> /xampp/apache/conf/ssl.crt/server.crt
+sudo cp /etc/letsencrypt/live/[yourdomain.com]/privkey.pemm ove to  --> /xampp/apache/conf/ssl.key/server.key
+```
