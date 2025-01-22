@@ -27,7 +27,23 @@ sudo apt install certbot python3-certbot-nginx
 ```
 ## genrate cerbot SSL
 ```
-sudo certbot certonly --standalone -d [example.com] -d [www.example.com]
+sudo certbot certonly --manual --preferred-challenges=http -d [example.com]
+```
+## make folder web sever Nginx or Apache
+```
+[path-webserver]/.well-known/acme-challenge
+```
+## and make file with name the intruction certbot like this
+```
+...
+http://example.com/.well-known/acme-challenge/[this the name]
+```
+## fill the file name with the data on the intruction certbot like this
+```
+Create a file containing just this data:
+
+[this value]
+...
 ```
 ## Convert to .pfx or .cr
 ```
