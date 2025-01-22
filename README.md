@@ -25,11 +25,6 @@ after finish restart the windows and setting new username and password
 ```
 sudo apt install certbot python3-certbot-nginx
 ```
-## configuration cerbot for apache or nginx
-```
-sudo apt install nginx
-sudo apt install apache2
-```
 ## genrate cerbot SSL
 ```
 sudo certbot certonly --standalone -d [example.com] -d [www.example.com]
