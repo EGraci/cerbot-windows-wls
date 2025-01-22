@@ -1,9 +1,12 @@
 # Install Cerbot(WSL) on WLS Ubuntu in Windows
 
 # windows system
-1.   <img src="https://github.com/EGraci/cerbot-windows-wls/blob/main/developer-mode.PNG">
-2.   <img src="https://github.com/EGraci/cerbot-windows-wls/blob/main/turn-windows-feature.PNG">
-3.   <img src="https://github.com/EGraci/cerbot-windows-wls/blob/main/on-windows-features.PNG">
+1.
+<img src="https://github.com/EGraci/cerbot-windows-wls/blob/main/developer-mode.PNG">
+2.
+<img src="https://github.com/EGraci/cerbot-windows-wls/blob/main/turn-windows-feature.PNG">
+3.
+<img src="https://github.com/EGraci/cerbot-windows-wls/blob/main/on-windows-features.PNG">
 ## configurate WSL on windows
 
 ## install WLS on Windows
